@@ -1,4 +1,4 @@
-# 💻 dsa grind - slay those interviews
+# 💻 Another DSA guide - slay those interviews
 
 ## Hi, welcome 👋
 

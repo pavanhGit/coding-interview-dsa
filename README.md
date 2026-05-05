@@ -1,4 +1,10 @@
-"# 💻 DSA Interview Preparation - Java
+# 💻 dsa grind - slay those interviews
+
+## Hi, welcome 👋
+
+> so you wanna ace those coding interviews? cool, you're in the right place. got a bunch of dsa problems here that actually show up in real interviews. just some code, some explanations, maybe a few "why does this even matter" moments. check it out, solve some stuff, profit.
+
+---
 
 ## Overview
 

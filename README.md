@@ -1,4 +1,4 @@
-# 💻 Another DSA guide - slay those interviews
+# 💻 Another DSA guide to slay those interviews
 
 ## Hi, welcome 👋
 

@@ -2,17 +2,17 @@ import java.util.Arrays;
 import java.util.List;
 
 class TwoSum{
-    public static String twoSum(Integer target, Integer[] arr){
+    public int[] twoSum(int target, int[] arr){
+        Map<Integer, Integer> lookup = new HashMap<>();
 
-        if(arr.length == 0) return "You arr is empty";
-
-        List<Integer> list = Arrays.asList(arr);
-
-        for(int i=0 ;i<list.size(); i++){
-            if(list.contains(target - list.get(i))){
-                return "index = ("+i+", "+list.indexOf(target - list.get(i))+")";
+        for(int i=0; i<arr.length; i++){
+            if(lookup.containsKey(target - arr[i])){
+                return new int[]{lookup.get(target - arr[i]), i};
+            }else{
+                lookup.put(arr[i], i);
             }
         }
-        return "null";
+
+        return new int[]{};
     }
 }
